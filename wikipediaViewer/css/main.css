@@ -1,0 +1,68 @@
+body {
+	font-family: 'Indie Flower', cursive;
+    color: black;
+    background-color: #f1f1f1;
+}
+
+#title {
+    font-size: 70px;
+    margin-top: 50px;
+    color: #0066cc;
+}
+
+.button, .button2 {
+    border: none;
+    color: white;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+#input {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    background-color: #4CAF50;
+}
+
+.button2 {
+    background-color: #f44336; 
+}
+
+.button3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.results {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ol a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+}
+
+ol a:hover {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+
+#myName {
+    margin-top: 100px; 
+}

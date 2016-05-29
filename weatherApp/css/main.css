@@ -1,0 +1,48 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    background-color: black;
+	
+}
+
+#title {
+    font-size: 70px;
+    margin-top: 50px;
+    color: #0066cc;
+}
+
+#country, #city, #weather {
+    font-size: 29px;
+    margin-top: 10px;
+}
+
+#temperature {
+    font-size: 29px;
+    display: inline
+}
+
+#myName {
+    margin-top: 100px; 
+}
+
+#deg{
+    font-size: 32px;
+    cursor:pointer;
+    color: #3398ff;
+    display: inline;
+    position: relative;
+}
+
+#deg:hover{
+    color: #333bff;
+}
+
+#deg:active{
+    top: 2px;
+}
+
+
+#sign{
+    font-size: 32px;
+    display: inline
+}

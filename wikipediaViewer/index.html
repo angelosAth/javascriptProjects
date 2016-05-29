@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Combatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wikipedia Viewer</title>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p id="title">Wikipedia Viewer</p>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-4 col-lg-offset-4 col-sm-5 col-sm-offset-3 col-xs-7 col-xs-offset-3">
+           <a href="https://en.wikipedia.org/wiki/Special:Random">Find a random article!</a>
+            <input class="form-control" id="input" type="text" placeholder="Input.." name="search" > 
+            <button class="button button3"  onClick="search()">Search</button>
+            <button class="button2 button3"  id="clear" onClick="clear()">Clear</button>
+          </div>
+        </div>     
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="results"></div>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <p id="myName">
+            <strong>Coded by <a href="https://github.com/angelosAth" target="_blank" >Angel</a></strong>
+          </p>
+        </div>  
+      </div>
+    </div>
+  <script src="scripts/main.js"></script>
+  </body>
+</html>

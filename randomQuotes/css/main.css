@@ -1,0 +1,50 @@
+body {
+	font-family: 'Indie Flower', cursive;
+  margin:9% auto auto auto;
+}
+
+#quote {
+    font-size: 29px;
+}
+#author {
+    font-size: 22px;
+}
+
+div.transbox {
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); 
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+.buttonMargin { 
+    margin-left: 5px;
+    margin-top: 5px; 
+}
+
+.myName {
+    margin-top: 10px; 
+}
+
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    img.bg {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
